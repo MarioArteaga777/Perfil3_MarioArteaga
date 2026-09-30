@@ -1,0 +1,33 @@
+{
+  "expo": {
+    "name": "Perfil 3 · Mario Arteaga",
+    "slug": "perfil3-mario-arteaga",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/rick-icon.png",
+    "userInterfaceStyle": "light",
+    "android": {
+      "package": "com.marioarteaga.perfil3",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/rick-adaptive-icon.png",
+        "backgroundColor": "#ABD5EC"
+      }
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/rick-splash.png",
+          "imageWidth": 240,
+          "resizeMode": "contain",
+          "backgroundColor": "#ABD5EC"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "87af4c9c-6ba6-419d-b66e-a8c23961dada"
+      }
+    }
+  }
+}
